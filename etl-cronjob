@@ -1,0 +1,2 @@
+*/10 * * * * root python /app/elt.py >> /var/log/cron.log 2>&1
+*/10 * * * * root python /app/etl.py >> /var/log/cron.log 2>&1

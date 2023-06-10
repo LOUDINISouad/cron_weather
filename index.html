@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_bde27c5bb8cf20f128c25b82a5bea6d4 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_bde27c5bb8cf20f128c25b82a5bea6d4" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_bde27c5bb8cf20f128c25b82a5bea6d4 = L.map(
+                "map_bde27c5bb8cf20f128c25b82a5bea6d4",
+                {
+                    center: [31.704545454545453, 3.4454546836363638],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b61c6208c0b0ac85910d1a1735d96382 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_bde27c5bb8cf20f128c25b82a5bea6d4);
+        
+    
+            var marker_c63ef5c9810c5235b325e9d7afb2b57c = L.marker(
+                [27.9, -0.29999924],
+                {}
+            ).addTo(map_bde27c5bb8cf20f128c25b82a5bea6d4);
+        
+    
+        var popup_c10d5e9ddb70592eda1f804d93215623 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6bcc8448ab5037cbfbd84098a68b4195 = $(`<div id="html_6bcc8448ab5037cbfbd84098a68b4195" style="width: 100.0%; height: 100.0%;"><p><b>Adrar</b><br>40.3°C</p></div>`)[0];
+                popup_c10d5e9ddb70592eda1f804d93215623.setContent(html_6bcc8448ab5037cbfbd84098a68b4195);
+            
+        
+
+        marker_c63ef5c9810c5235b325e9d7afb2b57c.bindPopup(popup_c10d5e9ddb70592eda1f804d93215623)
+        ;
+
+        
+    
+    
+            var marker_a43b1433a707fbec033b9238f2e79c64 = L.marker(
+                [36.6875, 3.125],
+                {}
+            ).addTo(map_bde27c5bb8cf20f128c25b82a5bea6d4);
+        
+    
+        var popup_1ea13639d1e058824c4c680b74f4531f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1b6975a60bcdbb19b4f078efd8b4c92 = $(`<div id="html_b1b6975a60bcdbb19b4f078efd8b4c92" style="width: 100.0%; height: 100.0%;"><p><b>Algiers</b><br>27.8°C</p></div>`)[0];
+                popup_1ea13639d1e058824c4c680b74f4531f.setContent(html_b1b6975a60bcdbb19b4f078efd8b4c92);
+            
+        
+
+        marker_a43b1433a707fbec033b9238f2e79c64.bindPopup(popup_1ea13639d1e058824c4c680b74f4531f)
+        ;
+
+        
+    
+    
+            var marker_2cd50bb67b31009b9ecfcfda5f157ef1 = L.marker(
+                [36.875, 7.75],
+                {}
+            ).addTo(map_bde27c5bb8cf20f128c25b82a5bea6d4);
+        
+    
+        var popup_b9601cb90c181f28185b391f4ca01ca2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e27b480a928731a74b2f5ecadca949cc = $(`<div id="html_e27b480a928731a74b2f5ecadca949cc" style="width: 100.0%; height: 100.0%;"><p><b>Annaba</b><br>23.8°C</p></div>`)[0];
+                popup_b9601cb90c181f28185b391f4ca01ca2.setContent(html_e27b480a928731a74b2f5ecadca949cc);
+            
+        
+
+        marker_2cd50bb67b31009b9ecfcfda5f157ef1.bindPopup(popup_b9601cb90c181f28185b391f4ca01ca2)
+        ;
+
+        
+    
+    
+            var marker_ab42025f5d22f9c207cefd8b867d54d2 = L.marker(
+                [35.5625, 6.25],
+                {}
+            ).addTo(map_bde27c5bb8cf20f128c25b82a5bea6d4);
+        
+    
+        var popup_71c3dfb5d090eebfe4bdaecc05b27758 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4201f01cfbfd0840a47a7d535dcd2e65 = $(`<div id="html_4201f01cfbfd0840a47a7d535dcd2e65" style="width: 100.0%; height: 100.0%;"><p><b>Batna</b><br>23.8°C</p></div>`)[0];
+                popup_71c3dfb5d090eebfe4bdaecc05b27758.setContent(html_4201f01cfbfd0840a47a7d535dcd2e65);
+            
+        
+
+        marker_ab42025f5d22f9c207cefd8b867d54d2.bindPopup(popup_71c3dfb5d090eebfe4bdaecc05b27758)
+        ;
+
+        
+    
+    
+            var marker_57765032dc60a329d6fbb555d20f3295 = L.marker(
+                [31.625, -2.1875],
+                {}
+            ).addTo(map_bde27c5bb8cf20f128c25b82a5bea6d4);
+        
+    
+        var popup_a0b9089a32a457f2606f446d6b7fa0f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d42f0c65bdac2c4678d91dc1102be5f0 = $(`<div id="html_d42f0c65bdac2c4678d91dc1102be5f0" style="width: 100.0%; height: 100.0%;"><p><b>Bechar</b><br>34.5°C</p></div>`)[0];
+                popup_a0b9089a32a457f2606f446d6b7fa0f4.setContent(html_d42f0c65bdac2c4678d91dc1102be5f0);
+            
+        
+
+        marker_57765032dc60a329d6fbb555d20f3295.bindPopup(popup_a0b9089a32a457f2606f446d6b7fa0f4)
+        ;
+
+        
+    
+    
+            var marker_0331f8d83c6590852978bf6e4776f6b5 = L.marker(
+                [24.5, 9.5],
+                {}
+            ).addTo(map_bde27c5bb8cf20f128c25b82a5bea6d4);
+        
+    
+        var popup_92ab8ec6f745611e404343f55cde8b3f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2171d2bd755c114bf5705c8b0cc86465 = $(`<div id="html_2171d2bd755c114bf5705c8b0cc86465" style="width: 100.0%; height: 100.0%;"><p><b>Djanet</b><br>38.3°C</p></div>`)[0];
+                popup_92ab8ec6f745611e404343f55cde8b3f.setContent(html_2171d2bd755c114bf5705c8b0cc86465);
+            
+        
+
+        marker_0331f8d83c6590852978bf6e4776f6b5.bindPopup(popup_92ab8ec6f745611e404343f55cde8b3f)
+        ;
+
+        
+    
+    
+            var marker_953cf0ce0e10986680caddafa4f6a46b = L.marker(
+                [31.9375, 5.3125],
+                {}
+            ).addTo(map_bde27c5bb8cf20f128c25b82a5bea6d4);
+        
+    
+        var popup_c4759588477b525a59a4e5eeba32adad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86983b53a191d38faeabac629008178b = $(`<div id="html_86983b53a191d38faeabac629008178b" style="width: 100.0%; height: 100.0%;"><p><b>Ouargla</b><br>37.8°C</p></div>`)[0];
+                popup_c4759588477b525a59a4e5eeba32adad.setContent(html_86983b53a191d38faeabac629008178b);
+            
+        
+
+        marker_953cf0ce0e10986680caddafa4f6a46b.bindPopup(popup_c4759588477b525a59a4e5eeba32adad)
+        ;
+
+        
+    
+    
+            var marker_b9b9c73917ac1ffcf78ee6de4a858bb7 = L.marker(
+                [22.8, 5.5],
+                {}
+            ).addTo(map_bde27c5bb8cf20f128c25b82a5bea6d4);
+        
+    
+        var popup_9dcc15ef7808520fb8c50e2bd30dc064 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_17509edba05571bde9367179230bced7 = $(`<div id="html_17509edba05571bde9367179230bced7" style="width: 100.0%; height: 100.0%;"><p><b>Tamanrasset</b><br>38.1°C</p></div>`)[0];
+                popup_9dcc15ef7808520fb8c50e2bd30dc064.setContent(html_17509edba05571bde9367179230bced7);
+            
+        
+
+        marker_b9b9c73917ac1ffcf78ee6de4a858bb7.bindPopup(popup_9dcc15ef7808520fb8c50e2bd30dc064)
+        ;
+
+        
+    
+    
+            var marker_90d49ddeea7fc5826fc90a5d53710c44 = L.marker(
+                [29.3, 0.20000076],
+                {}
+            ).addTo(map_bde27c5bb8cf20f128c25b82a5bea6d4);
+        
+    
+        var popup_5690ed988d0f365ae09c89273421e88b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a455f384f4b55ece659ed6376d1095d = $(`<div id="html_8a455f384f4b55ece659ed6376d1095d" style="width: 100.0%; height: 100.0%;"><p><b>Timimoun</b><br>38.4°C</p></div>`)[0];
+                popup_5690ed988d0f365ae09c89273421e88b.setContent(html_8a455f384f4b55ece659ed6376d1095d);
+            
+        
+
+        marker_90d49ddeea7fc5826fc90a5d53710c44.bindPopup(popup_5690ed988d0f365ae09c89273421e88b)
+        ;
+
+        
+    
+    
+            var marker_119cbfb82336f6aed44f57907c90ccac = L.marker(
+                [36.6875, 4.0625],
+                {}
+            ).addTo(map_bde27c5bb8cf20f128c25b82a5bea6d4);
+        
+    
+        var popup_be3fc30565926dc451a5b295a53c0ae8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6ad10260db07a647c25e69c7f087060f = $(`<div id="html_6ad10260db07a647c25e69c7f087060f" style="width: 100.0%; height: 100.0%;"><p><b>Tizi-Ouzou</b><br>26.1°C</p></div>`)[0];
+                popup_be3fc30565926dc451a5b295a53c0ae8.setContent(html_6ad10260db07a647c25e69c7f087060f);
+            
+        
+
+        marker_119cbfb82336f6aed44f57907c90ccac.bindPopup(popup_be3fc30565926dc451a5b295a53c0ae8)
+        ;
+
+        
+    
+    
+            var marker_27ff99c384dc423d52d16136ead45298 = L.marker(
+                [34.875, -1.3125],
+                {}
+            ).addTo(map_bde27c5bb8cf20f128c25b82a5bea6d4);
+        
+    
+        var popup_25b19790c111f9d87335f08af4ff6911 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d97891d90a963728cfe9da5adec81285 = $(`<div id="html_d97891d90a963728cfe9da5adec81285" style="width: 100.0%; height: 100.0%;"><p><b>Tlemcen</b><br>23.7°C</p></div>`)[0];
+                popup_25b19790c111f9d87335f08af4ff6911.setContent(html_d97891d90a963728cfe9da5adec81285);
+            
+        
+
+        marker_27ff99c384dc423d52d16136ead45298.bindPopup(popup_25b19790c111f9d87335f08af4ff6911)
+        ;
+
+        
+    
+</script>
+</html>
